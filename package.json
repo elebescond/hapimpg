@@ -1,0 +1,35 @@
+{
+    "name": "mpg-hapi",
+    "version": "1.0.0",
+    "description": "MPG Test",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node bootstrap.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elebescond/hapimpg.git"
+    },
+    "author": "Erwan LE BESCOND",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/elebescond/hapimpg/issues"
+    },
+    "homepage": "https://github.com/elebescond/hapimpg#readme",
+    "dependencies": {
+        "@babel/core": "^7.0.0-beta.40",
+        "@babel/preset-env": "^7.0.0-beta.40",
+        "@babel/register": "^7.0.0-beta.40",
+        "hapi": "^17.2.0",
+        "hapi-swagger": "^9.1.1",
+        "inert": "^5.1.0",
+        "joi": "^13.1.2",
+        "vision": "^5.3.1"
+    },
+    "devDependencies": {
+        "eslint": "^4.18.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.9.0"
+    }
+}
